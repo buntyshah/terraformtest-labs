@@ -1,11 +1,14 @@
-" {
+variable "loc" {
     default = "southeastasia"
+}
+variable "rg" {
+    default = "bunty-rg"
 }
 
 variable "tags" {
     type = "map"
  default = {
-        environment = "NPS TF training "
+        environment = "nps tf training "
         source      = "nps"
     }
 }
